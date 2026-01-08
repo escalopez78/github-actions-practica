@@ -1,0 +1,12 @@
+name: Mi primer action
+
+on:
+  push:
+
+jobs:
+  hola:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Mostrar mensaje
+        run: echo "ASIR es mejor que DAM"
